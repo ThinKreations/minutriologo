@@ -1,4 +1,11 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: Montserrat;
+  background-color: var(--bg-color);
+}
+
+:root{
+  --dark-blue: rgb(0, 60, 100);
+  --bg-color: rgb(240,240,240);
 }
