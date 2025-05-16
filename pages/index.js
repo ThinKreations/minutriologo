@@ -18,7 +18,7 @@ export default function Home() {
             <center>
               <p style={{fontSize:'30px'}}>{`¡Bienvenido a`} <b>{`MiNutriologo!`}</b></p>
               <p>Accede y conecta con los mejores nutriólogos.</p>
-              <button className={styles.btn_LogIndex} onClick={()=>{Router.push('/')}}> 
+              <button className={styles.btn_LogIndex} onClick={()=>{Router.push('/session/login')}}> 
                 <span className={styles.btn_LogIndex_spanL}>{`>`}</span>
                 <b className={styles.btn_LogIndex_spanC}>{`Inicia Sesión`}</b>
                 <span className={styles.btn_LogIndex_spanR}>{`<`}</span>
