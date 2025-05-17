@@ -23,7 +23,8 @@ export default function Home() {
                 <b className={styles.btn_LogIndex_spanC}>{`Inicia Sesión`}</b>
                 <span className={styles.btn_LogIndex_spanR}>{`<`}</span>
               </button>
-              <p></p>
+              <br/>
+              <p>{`O explora los nutriólogos `}<Link href={'/'} style={{marginTop:'25px', textDecoration:'none', color: 'white', textShadow:'0px 0px 3px rgb(200,200,200)'}}>{`aquí`}</Link></p>
             </center>
           </div>
         </div>

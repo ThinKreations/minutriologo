@@ -7,7 +7,7 @@ import MiHeader1 from "@/components/MiHeader1";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
-export default function LogIn() {
+export default function signUp() {
   const [correo, setCorreo] = useState("");
   const [contrasena, setContrasena] = useState("");
 
@@ -41,7 +41,7 @@ export default function LogIn() {
                     <span className={styles.btn_LogIndex_spanR}>{`<`}</span>
                   </button>
                 </div>
-                <p>{`¿No tienes cuenta? `}<Link href={'signup'} style={{marginTop:'25px', textDecoration:'none', color: 'white', textShadow:'0px 0px 3px rgb(200,200,200)'}}>{`Registrate`}</Link></p>
+                <p>{`¿No tienes cuenta? `}<Link href={'/signup'} style={{marginTop:'25px', textDecoration:'none', color: 'white', textShadow:'0px 0px 3px rgb(200,200,200)'}}>{`Registrate`}</Link></p>
                 
               </form>
             </center>
