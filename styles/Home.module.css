@@ -12,11 +12,11 @@
 }
 .container1{
   
-  height: calc(85vh);
+  height: calc(81vh);
   background-color: var(--dark-blue);
   transform: skewY(5deg);
   transform-origin: top left;
-  margin-top: -100px;
+  margin-top: -58px;
   z-index: 3;
   position: relative;
   align-content: center;

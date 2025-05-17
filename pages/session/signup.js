@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import MiHead from "@/components/MiHead";
-import MiHeader2 from "@/components/MiHeader2";
+import MiHeader1 from "@/components/MiHeader1";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +14,7 @@ export default function SignUp() {
   return (
     <>
       <MiHead title="MiNutriologo" />
-      <MiHeader2/>
+      <MiHeader1/>
       <div className={styles.container} >
         <div className={styles.container3}>
           <center>
