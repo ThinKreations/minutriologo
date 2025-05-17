@@ -15,7 +15,7 @@ export default function MiHeader2(){
                     */}
                 </div>
                 <nav className={styles.headerBtnNav}>
-                    <button onClick={()=>{Router.push('/session/login')}} className={styles.btn_LinkHeader}>
+                    <button onClick={()=>{Router.push('/')}} className={styles.btn_LinkHeader}>
                         <b>MiNutriólogo</b>
                     </button>
                     <button onClick={()=>{Router.push('/session/login')}} className={styles.btn_LinkHeader}>
