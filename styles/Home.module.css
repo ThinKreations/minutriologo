@@ -13,7 +13,7 @@
 .container1{
   
   height: calc(81vh);
-  background-color: var(--dark-blue);
+  background-image: linear-gradient(to top, rgba(0, 60, 100, 0.77) 0%, rgba(0, 50, 90, 1) 100%);
   transform: skewY(5deg);
   transform-origin: top left;
   margin-top: -58px;
@@ -21,14 +21,12 @@
   position: relative;
   align-content: center;
   color: var(--bg-color);
-  
 }
 .container2{
   transform: skewY(-5deg);
-  
 }
 .container3{/*como el 1 pero azul xd*/
-  margin-top: 80px;
+  margin-top: 50px;
   
 }
 
@@ -36,14 +34,14 @@
 
 /*Formulario de LogIn*/
 .form_Login {
-  width: 330px;
+  width: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .toHover_Login {
-  margin: 15px;
+  margin:3px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -160,9 +158,14 @@
   margin-right: 20px;
 }
 
+.errors{
+  color:red;
+  margin: 5px;
+}
+
 @media screen and (max-width: 650px){
   .container1{
-    margin-top: -140px;
+    margin-top: -120px;
     height: 90vh;
   }
   .btn_LinkHeader{
